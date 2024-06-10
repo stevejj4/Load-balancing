@@ -6,7 +6,7 @@ public class LoadBalancer {
         String[] server1 = new String[tasks.length / 2]; //to hold the tasks for each server1
         String[] server2 = new String[tasks.length / 2]; //to hold the tasks for each server2
 
-/*Task distribution: The loop iterates over the tasks array.
+/*Task distribution: The loop iterates over the tasks array and send to server 1 and 2.
  * Tasks are assigned to server1 if the index is even and -
  * to server 2 if the index is odd.
  */
